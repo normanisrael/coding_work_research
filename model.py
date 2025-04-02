@@ -5,8 +5,8 @@ from keras import models
 from keras import optimizers
 from keras.preprocessing.image import ImageDataGenerator
 
-TRAIN_DIR = '/home/nisrael/codes/data/train'
-VAL_DIR = '/home/nisrael/codes/data/validation'
+TRAIN_DIR = '/codes/data/train'
+VAL_DIR = '/codes/data/validation'
 
 input_shape = (150,150,3)
 model = models.Sequential()
