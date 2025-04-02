@@ -26,14 +26,14 @@ FDTD = sf.LUM(fdtd)
 """
 FILE PATHS
 """
-sim_file = "/home/nanophotonics/Research/Project_3swg/simulations/2D/movies/"
-data_file = "/home/nanophotonics/Research/Project_3swg/simulations/2D/parameters/output/"
-lum_para_file = "/home/nanophotonics/Research/Project_3swg/simulations/2D/parameters/"
-input_para = "/home/nanophotonics/Research/Project_3swg/simulations/2D/parameters/input/"
+sim_file = "/simulations/2D/movies/"
+data_file = "/simulations/2D/parameters/output/"
+lum_para_file = "/simulations/2D/parameters/"
+input_para = "/simulations/2D/parameters/input/"
 
 #file = "ANT1SWG_pList_test_2.dat"
-file = "ANT1SWG_pList_jun_6_comparison.dat"
-output_file = "ANT1SWG_pList_mar_16_comparison_output_varynswg.dat"
+file = "ANT1SWG_pList.dat"
+output_file = "ANT1SWG_pList_varynswg.dat"
 input_data = FDTD.read_data(input_para, file,1)
 
 find_the_output_file = FDTD.find_files(output_file, data_file)
