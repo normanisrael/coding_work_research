@@ -21,7 +21,7 @@ fdtd = lumapi.FDTD(hide = True)
 fdtd.addfdtd()
 FDTD = f2d.LUM(fdtd)
 
-lum_para_file = "/media/work/norman/simulations/2D/parameters/input/"
-file = '3seg_pList_jul4_4_22_4000.dat'
+lum_para_file = "/simulations/2D/parameters/input/"
+file = 'the_parameter_file.dat'
 
 FDTD.parameters(lum_para_file, file, 4, 4000)
