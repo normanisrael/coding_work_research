@@ -1,3 +1,3 @@
-# machinelearning
+# Summary
 
-This project consists of machine learning code I have/are working on for various purposes
+This is a summary of some research related work I have done over the years, particularly, my most recent work in photonics.
