@@ -4,30 +4,30 @@ import hamiltonian_functions as hf
 from scipy.interpolate import griddata
 
 '''
-modeA = '/home/nanophotonics/Research/Project_Top/EparT.txt' #nanorodmode.txt
-modeB = '/home/nanophotonics/Research/Project_Top/EparT.txt' #nanorodmode.txt
-mesh = '/home/nanophotonics/Research/Project_Top/ER5nmmesh_1par.mphtxt' #nanorodmesh.mphtxt
-QNAf =  '/home/nanophotonics/Research/Project_Top/5nmeigF_1par.txt' #nanorodeigenf.txt
-QNBf =  '/home/nanophotonics/Research/Project_Top/5nmeigF_1par.txt' #nanorodeigenf.txt
+modeA = '/home/EparT.txt' #nanorodmode.txt
+modeB = '/home/EparT.txt' #nanorodmode.txt
+mesh = '/home/ER5nmmesh_1par.mphtxt' #nanorodmesh.mphtxt
+QNAf =  '/home/5nmeigF_1par.txt' #nanorodeigenf.txt
+QNBf =  '/home/5nmeigF_1par.txt' #nanorodeigenf.txt
 
-modeA = '/home/nanophotonics/Research/Project_Top/E20nmmodes_1par.txt'#cubemode.txt'
-modeB = '/home/nanophotonics/Research/Project_Top/E20nmmodes_1par.txt'#cubemode.txt'
-mesh = '/home/nanophotonics/Research/Project_Top/ER20nmmesh_1par.mphtxt'#Esqnmmesh_1par.mphtxt'
-QNAf = '/home/nanophotonics/Research/Project_Top/E20nmeigenf.txt'#cubeeigenf.txt'
-QNBf = '/home/nanophotonics/Research/Project_Top/E20nmeigenf.txt'#cubeeigenf.txt'
+modeA = '/home/E20nmmodes_1par.txt'#cubemode.txt'
+modeB = '/home/E20nmmodes_1par.txt'#cubemode.txt'
+mesh = '/home/ER20nmmesh_1par.mphtxt'#Esqnmmesh_1par.mphtxt'
+QNAf = '/home/E20nmeigenf.txt'#cubeeigenf.txt'
+QNBf = '/home/E20nmeigenf.txt'#cubeeigenf.txt'
 
-modeA = '/home/nanophotonics/Research/Project_Top/cubemode.txt'
-modeB = '/home/nanophotonics/Research/Project_Top/cubemode.txt'
-mesh = '/home/nanophotonics/Research/Project_Top/Esqnmmesh_1par.mphtxt'
-QNAf = '/home/nanophotonics/Research/Project_Top/cubeeigenf.txt'
-QNBf = '/home/nanophotonics/Research/Project_Top/cubeeigenf.txt'
+modeA = '/home/cubemode.txt'
+modeB = '/home/cubemode.txt'
+mesh = '/home/Esqnmmesh_1par.mphtxt'
+QNAf = '/home/cubeeigenf.txt'
+QNBf = '/home/cubeeigenf.txt'
 '''
 
-modeA = '/home/nanophotonics/Research/Project_Top/nanorodmode3.txt'
-modeB = '/home/nanophotonics/Research/Project_Top/nanorodmode3.txt'
-mesh = '/home/nanophotonics/Research/Project_Top/nanorodmesh2.mphtxt'
-QNAf =  '/home/nanophotonics/Research/Project_Top/nrodeigf.txt'
-QNBf =  '/home/nanophotonics/Research/Project_Top/nrodeigf.txt'
+modeA = '/home/nanorodmode3.txt'
+modeB = '/home/nanorodmode3.txt'
+mesh = '/home/nanorodmesh2.mphtxt'
+QNAf =  '/home/nrodeigf.txt'
+QNBf =  '/home/nrodeigf.txt'
 
 mesh_coordinates = np.loadtxt(mesh,dtype=float,skiprows=1)
 EA = np.loadtxt(modeA,dtype=str,skiprows=9)
