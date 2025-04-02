@@ -4,8 +4,8 @@ from keras import layers
 from keras.preprocessing.image import ImageDataGenerator
 from keras import optimizers
 
-TRAIN_DIR = '/home/nisrael/codes/data/train'
-VAL_DIR = '/home/nisrael/codes/data/validation'
+TRAIN_DIR = '/codes/data/train'
+VAL_DIR = '/codes/data/validation'
 
 conv_base = MobileNet(weights='imagenet',
                 include_top=False,
