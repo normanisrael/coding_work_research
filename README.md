@@ -36,4 +36,4 @@ Together, these approaches contribute to the development of more efficient compu
 ### Broader Impact and Recognition
 My doctoral research has supported international scientific collaborations, conference presentations, and research commercialization activities. Recognition includes an Outstanding Lightning Presentation award at the Black Excellence in Science, Technology, Engineering, Math and Medicine (BE-STEMM) 2026 conference, a poster competition award at the 2023 Photonics & AI Workshop, and a 2026 Nobellum STEM Innovator Award.
 
-One longer-term vision of this research is to accelerate the design of compact, efficient, and scalable integrated photonic devices.
+One long-term vision of this research is to accelerate the design of compact, efficient, and scalable integrated photonic devices.
